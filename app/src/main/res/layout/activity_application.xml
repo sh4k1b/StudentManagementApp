@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/appType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Application Type (e.g. Leave)" />
+
+    <EditText
+        android:id="@+id/appContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Application Content"
+        android:lines="4"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/sendApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Application" />
+
+    <Button
+        android:id="@+id/backToDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/enrollCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll Course" />
+
+    <Button
+        android:id="@+id/sendApplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Application" />
+
+    <Button
+        android:id="@+id/viewCGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View CGPA" />
+
+    <Button
+        android:id="@+id/viewEnrolledCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Enrolled Courses" />
+
+</LinearLayout>
